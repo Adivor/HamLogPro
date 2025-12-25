@@ -1,0 +1,8 @@
+{
+  "name": "HamLog Pro Mobile",
+  "description": "A modern mobile logging application for radio amateurs (POTA/SOTA) with GPS integration and QRZ.net lookup.",
+  "requestFramePermissions": [
+    "geolocation",
+    "microphone"
+  ]
+}
