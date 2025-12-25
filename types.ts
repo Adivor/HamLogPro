@@ -44,13 +44,14 @@ export interface QRZData {
 export interface UserSettings {
   myCall: string;
   qrzApiKey: string;
-  logbookUuid: string;
   myLocator: string;
   potaEnabled: boolean;
   sotaEnabled: boolean;
+  dxClusterEnabled: boolean;
   refreshInterval: number;
   enableAudioRecording: boolean;
   fontSize: 'normal' | 'large';
+  autoSyncEnabled: boolean;
 }
 
 export interface Reference {
