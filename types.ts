@@ -51,7 +51,6 @@ export interface UserSettings {
   refreshInterval: number;
   enableAudioRecording: boolean;
   fontSize: 'normal' | 'large';
-  autoSyncEnabled: boolean;
 }
 
 export interface Reference {
